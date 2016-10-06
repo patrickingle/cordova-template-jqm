@@ -1,0 +1,19 @@
+{
+  "name": "cordova-template-jqm",
+  "version": "1.0.0",
+  "description": "Creating a cordova app with jQuery mobile inclusive",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/patrickingle/cordova-template-jqm.git"
+  },
+  "homepage": "https://github.com/patrickingle/cordova-template-jqm",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova:template"
+  ],
+  "author": "Patrick Ingle"
+}
