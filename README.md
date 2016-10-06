@@ -7,14 +7,10 @@ From the command line, navigate to the directory you want the project to reside,
 
 cordova create hello com.example.hello HelloWorld --template https://github.com/patrickingle/cordova-template-jqm.git
 
-# Adding platform support
+# After creating a new project using this template
 
-Issue each command separately,
+1. Ensure the file add-plugins.sh under the hooks path has executable permissions
 
-cd hello
+2. Change to the project root folder: cd projectFolder
 
-cordova platform add browser
-
-cordova platform add android
-
-cordova platform add ios
+3. Issue the command: cordova platform ls, this command will pull some base plugins and add browser, ios, android and windows platforms
